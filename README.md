@@ -9,7 +9,7 @@ A tabela `indicados_ao_oscar` tem a seguinte estrutura:
 - **ano_filmagem**: Ano em que o filme foi filmado.
 - **ano_cerimonia**: Ano da cerimônia do Oscar.
 - **cerimonia**: Número da cerimônia do Oscar.
-- **categoria**: Categoria da indicação (por exemplo, 'ACTRESS IN A LEADING ROLE').
+- **categoria**: Categoria da indicação.
 - **nome_do_indicado**: Nome do indicado.
 - **nome_do_filme**: Nome do filme ao qual o indicado foi nomeado.
 - **vencedor**: Indica se o indicado foi o vencedor na categoria (valor booleano).
