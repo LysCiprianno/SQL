@@ -15,13 +15,13 @@ A tabela `indicados_ao_oscar` tem a seguinte estrutura:
 - **vencedor**: Indica se o indicado foi o vencedor na categoria (valor booleano).
  
 ## Perguntas Respondidas
- 
+
+```sql
  1. Quantas vezes Natalie Portman foi indicada ao Oscar?
 
 Resposta: 3 vezes.  
 Consulta SQL:
 
-```sql
 SELECT COUNT(*)
 FROM indicados_ao_oscar
 WHERE nome_do_indicado LIKE '%Natalie Portman%';
